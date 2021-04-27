@@ -80,7 +80,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; `
 # Minikube
 
 ```
-Powershell yönetici olarak çalıştırılır.
+Powershell yönetici(admin) olarak çalıştırılır.
 choco install minikube
 
 minikube start --cpus 4 --driver=virtualbox
